@@ -1,0 +1,136 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up the base font and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #2a2727;
+}
+
+/* Wrapper styles */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    width: 90%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(251, 249, 249, 0.1);
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Display container styles */
+.displayContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.displayPassword {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.displayContainer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.displayContainer button:hover {
+    background-color: #0056b3;
+}
+
+/* Input container styles */
+.inputContainer {
+    margin-bottom: 20px;
+}
+
+/* Length container styles */
+.lengthContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Slider styles */
+.slider {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Checkbox container styles */
+.checkBoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.checkBoxContainer div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Strength container styles */
+.strength-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.strength-container p {
+    margin-right: 10px;
+}
+
+.strength {
+    width: 16px; /* Adjust size as needed */
+    height: 16px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes it circular */
+    background-color: #007bff; /* Default color */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Blurred border effect */
+}
+
+/* Generate password button styles */
+.generateBtn {
+    
+    background-color: #28a745;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generateBtn:hover {
+    background-color: #218838;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
